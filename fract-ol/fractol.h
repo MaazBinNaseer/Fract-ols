@@ -1,3 +1,10 @@
+#ifndef FRACTOL_H
+#define FRACTOL_H
+
+
+#define MAXIMUM_ITERATION 25
+#define MALDERBOT 1
+
 //Libraries Reuired
 #include <stdio.h>
 #include <math.h>
@@ -40,3 +47,5 @@ typedef struct s_data
     char            **args;
     t_color         *color;
 }   t_data;
+
+#endif
