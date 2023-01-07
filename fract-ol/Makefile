@@ -1,7 +1,7 @@
 # 
 
 NAME= fract-ol
-CFILES= main.c 
+CFILES= main.c colors.c events_manage.c initialize.c mandkerbot.c render_fractals.c utilis.c x_calloc.c
 OBJ = $(CFILES:.c=.o)
 CFLAGS = -Wall -Wextra -Werror 
 CC = gcc
